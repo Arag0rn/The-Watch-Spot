@@ -4,14 +4,14 @@
   | default @import url()
   |============================
 */
-@import url('./header.css');
+/* @import url('./header.css');
 @import url('./hero.css');
 @import url('./aboutus.css');
 @import url('./catalog.css');
 @import url('./newwatches.css');
 @import url('./sale.css');
 @import url('./burgermenu.css');
-@import url('./buynow.css');
+@import url('./buynow.css'); */
 @import url('./footer.css');
 
 :root {
@@ -19,5 +19,4 @@
 
 
 
- 
 }

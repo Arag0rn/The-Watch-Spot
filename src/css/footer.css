@@ -1,0 +1,32 @@
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+.footer {
+background-color: #1E2827;
+}
+@media screen and (min-width: 375px) {
+.footer {
+    height: 434px;
+    max-width: 375px;
+}
+@media screen and (min-width: 1280px) { 
+.footer {
+    height: 534px;
+    max-width: 1280px;
+}
+}
+}
