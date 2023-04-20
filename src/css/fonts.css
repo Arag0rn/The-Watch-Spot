@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'epiloguelight';
+    src: url('../fonts/epilogue-light-webfont.woff2') format('woff2'),
+         url('../fonts/epilogue-light-webfont.woff') format('woff'),
+         url('../fonts/epilogue-light-webfont.svg#epiloguelight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'epilogueregular';
+    src: url('../fonts/epilogue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/epilogue-regular-webfont.woff') format('woff'),
+         url('../fonts/epilogue-regular-webfont.svg#epilogueregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'epiloguesemibold';
+    src: url('../fonts/epilogue-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/epilogue-semibold-webfont.woff') format('woff'),
+         url('../fonts/epilogue-semibold-webfont.svg#epiloguesemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'epiloguebold';
+    src: url('../fonts/epilogue-bold-webfont.woff2') format('woff2'),
+         url('../fonts/epilogue-bold-webfont.woff') format('woff'),
+         url('../fonts/epilogue-bold-webfont.svg#epiloguebold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}

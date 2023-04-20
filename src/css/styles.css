@@ -1,9 +1,53 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+address {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color:inherit
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+      width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+      width: 1176px;
+  }
+}
+
+
+@import url('./fonts.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./aboutus.css');
@@ -14,10 +58,3 @@
 @import url('./buynow.css');
 @import url('./footer.css');
 
-:root {
-  font-family: 'Epilogue', Helvetica, Arial, sans-serif;
-
-
-
- 
-}
