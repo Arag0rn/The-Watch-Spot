@@ -33,6 +33,7 @@ ul, ol {
   .container {
       width: 335px;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -57,4 +58,3 @@ ul, ol {
 @import url('./burgermenu.css');
 @import url('./buynow.css');
 @import url('./footer.css');
-
