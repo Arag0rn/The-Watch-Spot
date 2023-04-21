@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'epiloguelight';
+    font-family: 'Epilogue';
     src: url('../fonts/epilogue-light-webfont.woff2') format('woff2'),
          url('../fonts/epilogue-light-webfont.woff') format('woff'),
          url('../fonts/epilogue-light-webfont.svg#epiloguelight') format('svg');
@@ -12,7 +12,7 @@
 
 
 @font-face {
-    font-family: 'epilogueregular';
+    font-family: 'Epilogue';
     src: url('../fonts/epilogue-regular-webfont.woff2') format('woff2'),
          url('../fonts/epilogue-regular-webfont.woff') format('woff'),
          url('../fonts/epilogue-regular-webfont.svg#epilogueregular') format('svg');
@@ -25,7 +25,7 @@
 
 
 @font-face {
-    font-family: 'epiloguesemibold';
+    font-family: 'Epilogue';
     src: url('../fonts/epilogue-semibold-webfont.woff2') format('woff2'),
          url('../fonts/epilogue-semibold-webfont.woff') format('woff'),
          url('../fonts/epilogue-semibold-webfont.svg#epiloguesemibold') format('svg');
