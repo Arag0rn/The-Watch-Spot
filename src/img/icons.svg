@@ -31,14 +31,5 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M8 8l16 16"></path>
 </symbol>
 
-<symbol id="icon-next" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9412" d="M8.471 0.471h15.059c4.418 0 8 3.582 8 8v15.059c0 4.418-3.582 8-8 8h-15.059c-4.418 0-8-3.582-8-8v-15.059c0-4.418 3.582-8 8-8z"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.9412" d="M13.882 20.235l4.235-4.235-4.235-4.235"></path>
-</symbol>
-<symbol id="icon-prev" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9412" d="M8.471 0.471h15.059c4.418 0 8 3.582 8 8v15.059c0 4.418-3.582 8-8 8h-15.059c-4.418 0-8-3.582-8-8v-15.059c0-4.418 3.582-8 8-8z"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.9412" d="M18.118 20.235l-4.235-4.235 4.235-4.235"></path>
-</symbol>
-
 </defs>
 </svg>
