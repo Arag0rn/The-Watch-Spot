@@ -16,21 +16,27 @@
     height: 35px;
     display: block;
 }
+.swiper-and-btn {
+    margin-top: 60px;
+}
 .swiper {
-    width: 100%;
+    width: 266px;
     display: inline-flex;
     justify-content: start;
-    margin-top: 60px;
     margin-left: 0;
     margin-right: 0;
 }
 .swiper-buttons {
-    width: 266px;
     display: flex;
-    margin-top: 20px;
     gap: 12px;
 }
-
+.swiper-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: end;
+    width: 266px;
+}
 .swiper-slide {
     display: flex;
     justify-content: center;
@@ -51,12 +57,8 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
 }
-.swiper-wrapper {
-    width: 266px;
-    height: 200px;
-  }
 .swiper-pagination {
-    justify-self: end;
+    margin-left: 74px;
 }
 .swiper-pagination-custom {
     position: relative;
@@ -67,8 +69,10 @@
     justify-content: center;
     align-items: center;
     width: auto;
+    font-style: normal;
+    font-weight: 300;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .swiper-pagination-custom:after {
@@ -93,7 +97,7 @@
 }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:767px) {
     .hero-img {
         display: block;
     }
@@ -102,7 +106,71 @@
         font-size: 60px;
         line-height: calc(62/60);
     }
-    .swiper-wrapper {
+    .swiper {
+        width: 436px;
+    }
+    .swiper-action {
+        display: flex;
+        width: 436px;
+    }
+    .swiper-and-btn {
+        margin-top: 60px;
+       display: inline-block;
+       align-self: end;
+    }
+    .hero-txt {
+        position: absolute;
+        top: 40%;
+        display: inline-block;
+        width: 248px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 20px;
+        
+    }
+
+    .section-img-block{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+        display: grid;
+        grid-template-columns: 436px 676px;
+        grid-template-rows: 124px 394px;
+        row-gap: 43px;
+        column-gap: 64px;
+    
+    }
+    .hero-txt {
+        margin-top: 0;
+        position: static;
+        grid-column-start: 2;
+        justify-self: flex-end;
+        align-self: center;
+    }
+    .section-img-block {
+        margin-top: 0;
+       align-self: center;
+        grid-column-start: 2;
+        
+    }
+    .swiper-and-btn {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .hero-head {
+        width: 750px;
+        grid-row-start: 1;
+        
+    }
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 80x;
+        
         
     }
 }
+
