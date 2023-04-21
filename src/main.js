@@ -18,7 +18,7 @@ const swiper = new Swiper(".mySwiper", {
         renderFraction: function (currentClass, totalClass) {
             return '<span class="' + currentClass + '"></span>' +
             ' of ' +
-            '<span class="' + totalClass + '"></span>', 
+            '<span class="' + totalClass + '"></span>'
         },
     },
   });
