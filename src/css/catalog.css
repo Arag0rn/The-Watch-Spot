@@ -1,0 +1,12 @@
+.catalog {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.item {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+}
