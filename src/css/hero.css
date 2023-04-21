@@ -60,6 +60,13 @@
     color: #FFFFFF;
 }
 
+.section-img-block {
+    margin-top: 40px;
+    height: 410px;
+    background-image: url(/img/hero-mob.jpg);
+    object-fit: cover;
+}
+
 @media screen and (min-width:768px) {
     .hero-img {
         display: block;
