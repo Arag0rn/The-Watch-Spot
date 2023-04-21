@@ -12,13 +12,13 @@ const swiper = new Swiper(".mySwiper", {
     prevEl: ".button-prev",
 },
 
-  pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-      renderFraction: function (currentClass, totalClass) {
-          return '<span class="' + currentClass + '"></span>' +
-          ' of ' +
-          '<span class="' + totalClass + '"></span>'; 
-      },
-  },
-});
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+        renderFraction: function (currentClass, totalClass) {
+            return '<span class="' + currentClass + '"></span>' +
+            ' of ' +
+            '<span class="' + totalClass + '"></span>', 
+        },
+    },
+  });
