@@ -3,6 +3,11 @@
   padding-bottom: 80px;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
 .item {
   font-weight: 400;
   font-size: 14px;
@@ -21,6 +26,17 @@
 
   margin-bottom: 57px;
 }
+.picture {
+  margin-bottom: 57px;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 1);
+}
 
 .main-text {
   font-weight: 400;
@@ -35,8 +51,17 @@
   overflow: hidden;
 }
 
+.overlay-thumb:hover::before {
+  opacity: 1;
+}
+
 .link-overlay {
   display: block;
+}
+
+.link-overlay:hover .overlay,
+.link-overlay:focus .overlay {
+  transform: translateY(0);
 }
 
 .overlay {
@@ -45,10 +70,35 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 46px 40px 41px 59px;
+  padding: 46px 59px 41px 40px;
   background-color: rgba(30, 40, 39, 1);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+}
+
+.text-style {
+  width: 162px;
+  height: 144px;
+}
+
+.title-overlay {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text-overlay {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
