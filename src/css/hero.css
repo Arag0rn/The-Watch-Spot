@@ -18,22 +18,21 @@
 }
 .swiper {
     width: 266px;
-    display: flex;
+    display: inline-flex;
     justify-content: start;
     margin-top: 60px;
     margin-left: 0;
     margin-right: 0;
 }
 .swiper-buttons {
-    width: 76px;
-    position: relative;
+    width: 266px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     margin-top: 20px;
     gap: 12px;
 }
 .swiper-wrapper {
-    
+   
 }
 .swiper-slide {
     display: flex;
@@ -45,6 +44,8 @@
     display: none;
 }
 .swiper-pagination{
+    position: static;
+    text-align: end;
     color: #FFFFFF;
     left: 211px;
     bottom: 20%;
@@ -60,8 +61,22 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width:768px){
+.section-img-block {
+    margin-top: 40px;
+    height: 410px;
+    background-image: url(/img/hero-mob.jpg);
+    object-fit: cover;
+}
+}
+
 @media screen and (min-width:768px) {
     .hero-img {
         display: block;
+    }
+    .hero-head {
+        width: 653px;
+        font-size: 60px;
+        line-height: calc(62/60);
     }
 }

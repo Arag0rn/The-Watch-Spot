@@ -1,16 +1,16 @@
 // -- slider  -- //
 
 const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
-    keyboard: {
-    enabled: true,
-  },
-    navigation: {
-      nextEl: ".button-next",
-      prevEl: ".button-prev",
-  },
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  keyboard: {
+  enabled: true,
+},
+  navigation: {
+    nextEl: ".button-next",
+    prevEl: ".button-prev",
+},
 
     pagination: {
         el: ".swiper-pagination",
@@ -18,7 +18,7 @@ const swiper = new Swiper(".mySwiper", {
         renderFraction: function (currentClass, totalClass) {
             return '<span class="' + currentClass + '"></span>' +
             ' of ' +
-            '<span class="' + totalClass + '"></span>'; 
+            '<span class="' + totalClass + '"></span>'
         },
     },
   });
