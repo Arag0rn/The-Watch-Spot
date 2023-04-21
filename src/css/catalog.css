@@ -8,5 +8,36 @@
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #1e2827;
+  color: rgba(30, 40, 39, 1);
+  padding-bottom: 83px;
+  margin-bottom: 57px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 1);
+  margin-bottom: 4px;
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .item:not(:last-child) {
+    margin-bottom: 83px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .hidden {
+    display: none;
+  }
 }
