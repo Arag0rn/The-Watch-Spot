@@ -5,6 +5,7 @@
     
 }
 .hero-head {
+    font-family: 'Epilogue';
     font-weight: 600;
     font-size: 38px;
     line-height: calc(40/38);
@@ -57,6 +58,7 @@
 
 
 .hero-txt {
+    font-family: 'Epilogue';
     margin-top: 40px;
     margin-left: 92px;
     font-weight: 300;
@@ -96,7 +98,7 @@
   }
   
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 .section-img-block {
     margin-top: 40px;
     height: 410px;
@@ -105,7 +107,7 @@
 }
 }
 
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .hero-img {
         display: block;
     }
