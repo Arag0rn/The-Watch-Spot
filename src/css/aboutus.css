@@ -36,6 +36,21 @@ height: 365px;
 margin-top: 40px;
 background: url(/img/about-gif.jpg);
     }
+
+    .gif-button {
+        background-image: url(/img/about-gif.jpg);
+        background-size: cover;
+        width: 335px;
+        height: 365px;
+        border: none;
+        outline: none;
+      }
+      
+      .gif-button:hover {
+        background-image: url(/img/watchspot.gif);
+        background-size: cover;
+      }
+      
 }
 
 
@@ -72,6 +87,16 @@ line-height: 1.1;
 height: 465px;
 background: url(/img/about-tab-gif.jpg);
     }
+
+    .gif-button {
+        background-image: url(/img/about-tab-gif.jpg);
+        width: 704px;
+        height: 465px;
+      }
+      
+      .gif-button:hover {
+        background-image: url(/img/watchspot.gif);
+      }
 }
 
 
@@ -106,5 +131,15 @@ background: url(/img/about-tab-gif.jpg);
 height: 500px;
 background: url(/img/about-desktop-gif.jpg);
 }
+
+.gif-button {
+    background-image: url(/img/about-desktop-gif.jpg);
+    width: 892px;
+    height: 599px;
+  }
+  
+  .gif-button:hover {
+    background-image: url(/img/watchspot.gif);
+  }
 
 }
