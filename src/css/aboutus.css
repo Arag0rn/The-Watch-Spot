@@ -43,6 +43,22 @@ background: url(/img/watchspot.gif);
     .container {
         width: 704px;
     }
+
+    .about {
+        padding-top: 64px;
+    }
+
+    .about-head {
+        width: 174px;
+font-size: 40px;
+line-height: 1.1;
+    }
+
+    .animated-gif {
+        width: 704px;
+height: 465px;
+
+    }
 }
 
 
