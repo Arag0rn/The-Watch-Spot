@@ -5,6 +5,7 @@
     }
 
     .about-head {
+        font-family: 'Epilogue', 'epiloguesemibold';
 font-weight: 600;
 font-size: 32px;
 line-height: 1.25;
@@ -14,6 +15,7 @@ color: #1E2827;
     }
 
     .about-text {
+        font-family: 'Epilogue', 'epiloguelight';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -23,6 +25,7 @@ color: #141414;
     }
 
     .about-txt {
+        width: 335px;
         display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -36,6 +39,14 @@ height: 365px;
 margin-top: 40px;
 background: url(/img/about-gif.jpg);
     }
+
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .animated-gif {
+        background: url(/img/about-gif-2x.jpg);
+    }
+}
 
     .gif-button {
         background-image: url(/img/about-gif.jpg);
@@ -73,6 +84,7 @@ line-height: 1.1;
     }
 
     .about-txt {
+        width: 490px;
         display: flex;
         flex-direction: row;
     }
@@ -86,6 +98,14 @@ line-height: 1.1;
         width: 704px;
 height: 465px;
 background: url(/img/about-tab-gif.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .animated-gif {
+            background: url(/img/about-tab-2x.jpg);
+        }
     }
 
     .gif-button {
@@ -118,6 +138,7 @@ background: url(/img/about-tab-gif.jpg);
 }
 
 .about-txt {
+    width: 859px;
     gap: 40px;
 }
 
@@ -131,6 +152,14 @@ background: url(/img/about-tab-gif.jpg);
 height: 500px;
 background: url(/img/about-desktop-gif.jpg);
 }
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .animated-gif {
+            background: url(/img/about-desktop-2x.jpg);
+        }
+    }
 
 .gif-button {
     background-image: url(/img/about-desktop-gif.jpg);
