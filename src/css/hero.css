@@ -2,6 +2,8 @@
     padding-top: 69px;
     padding-bottom: 40px;
     background-color:black;
+    max-width: 1440px;
+    margin: 0 auto;
     
 }
 .hero-head {
