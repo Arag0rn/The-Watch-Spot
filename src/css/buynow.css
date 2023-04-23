@@ -138,6 +138,11 @@
     gap: 20px;
   }
 
+  .modal-close-btn {
+    width: 24px;
+    height: 24px;
+  }
+
   .modal-form {
     display: flex;
     flex-direction: column;
