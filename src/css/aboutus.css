@@ -1,11 +1,15 @@
+/* ==============MOBILE======================= */
 @media screen and (min-width: 375px) {
-    
+    .container {
+        width: 335px;
+    }
+
     .about {
         padding-top: 40px;
     }
 
     .about-head {
-        font-family: 'Epilogue', 'epiloguesemibold';
+        font-family: 'epiloguesemibold';
 font-weight: 600;
 font-size: 32px;
 line-height: 1.25;
@@ -15,8 +19,7 @@ color: #1E2827;
     }
 
     .about-text {
-        font-family: 'Epilogue', 'epiloguelight';
-        width: 335px;
+        font-family:'epiloguelight';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -28,14 +31,12 @@ color: #141414;
     .about-txt {
         display: flex;
 flex-direction: column;
-align-items: flex-start;
-padding: 0px;
 gap: 20px;
     }
 
     .animated-gif {
-        width: 335px;
-height: 365px;
+        width: 100%;
+        height: 365px;
 margin-top: 40px;
 background: url(/img/about-gif.jpg);
     }
@@ -61,16 +62,17 @@ background: url(/img/about-gif.jpg);
         background-image: url(/img/watchspot.gif);
         background-size: cover;
       }
+    }
       
-}
+/* ===================/MOBILE================== */
 
 
 
+/* =================TABLET================== */
 
 @media screen and (min-width: 768px) {
-
-    .about-tab {
-        display: flex;
+    .container {
+        width: 704px;
     }
 
     .about {
@@ -84,10 +86,8 @@ line-height: 1.1;
     }
 
     .about-txt {
-        width: 490px;
         flex-direction: row;
     }
-
 
     .about-text {
         max-width: 220px;
@@ -116,15 +116,18 @@ background: url(/img/about-tab-gif.jpg);
       .gif-button:hover {
         background-image: url(/img/watchspot.gif);
       }
-}
+
+    }
+
+/* =======================/TABLET======================= */
 
 
-
-
-
-
+/* ===================DESKTOP=========================== */
 
 @media screen and (min-width: 1280px) {
+    .container {
+        width: 1176px;
+    }
 
     .about {
         padding-top: 80px;
@@ -136,7 +139,6 @@ background: url(/img/about-tab-gif.jpg);
 }
 
 .about-txt {
-    width: 859px;
     gap: 40px;
 }
 
@@ -168,5 +170,5 @@ background: url(/img/about-desktop-gif.jpg);
   .gif-button:hover {
     background-image: url(/img/watchspot.gif);
   }
-
 }
+  /* =====================/DESKTOP================== */
