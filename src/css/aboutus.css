@@ -1,8 +1,4 @@
 /* ==============MOBILE======================= */
-@media screen and (min-width: 375px) {
-    .container {
-        width: 335px;
-    }
 
     .about {
         padding-top: 40px;
@@ -62,7 +58,7 @@ background: url(/img/about-gif.jpg);
         background-image: url(/img/watchspot.gif);
         background-size: cover;
       }
-    }
+    
       
 /* ===================/MOBILE================== */
 
