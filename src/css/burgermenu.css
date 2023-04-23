@@ -51,6 +51,7 @@
   line-height: 1;
   letter-spacing: -0.03em;
   color: #ffffff;
+  margin-left: 4px;
 }
 .menu-close {
   display: flex;
