@@ -1,5 +1,5 @@
 .backdrop {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -18,7 +18,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 335px;
-  height: 100%;
   background-color: #ffffff;
   padding: 40px 20px;
 }
@@ -34,8 +33,7 @@
   height: 20px;
   border: none;
   padding: 0;
-
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 
 .modal-close-icon {
@@ -54,6 +52,7 @@
   letter-spacing: -0.02em;
   color: #141414;
   margin-top: 14px;
+  margin-bottom: 4px;
 }
 .watch-price {
   font-size: 12px;
@@ -129,4 +128,48 @@
 
 .modal-policy-link {
   text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 744px;
+    padding: 40px;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 368px;
+  }
+
+  .modal-form-input-desc {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+    line-height: 1.12;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    max-width: 904px;
+    gap: 40px;
+  }
+
+  .modal-form {
+    max-width: 508px;
+  }
+
+  .modal-form-input {
+    margin-bottom: 24px;
+  }
+
+  .modal-form-submit {
+    margin-top: 40px;
+  }
 }
