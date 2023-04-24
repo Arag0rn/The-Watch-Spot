@@ -83,6 +83,7 @@
 
 @media screen and (min-width: 375px) {
     .footer {
+        margin: 0 auto;
         /* height: 434px; */
         max-width: 375px;
         padding-top: 40px;
@@ -113,6 +114,7 @@
 @media screen and (min-width: 768px) {
 
     .footer {
+        margin: 0 auto;
         /* height: 476px; */
         max-width: 768px;
         padding-top: 80px;
@@ -181,6 +183,7 @@ justify-content: space-between;
 
 @media screen and (min-width: 1280px) {
     .footer {
+        margin: 0 auto;
         /* height: 534px; */
         max-width: 1280px;
         background-size: cover;
@@ -250,4 +253,78 @@ justify-content: space-between;
              display: flex;
              justify-content: space-between;
          }
+}
+@media screen and (min-width: 1440px) {
+    .footer {
+        margin: 0 auto;
+        /* height: 534px; */
+        max-width: 1440px;
+        background-size: cover;
+    }
+
+    .footer-logo-links-socmed {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .footer-social-media {
+        margin: 0;
+    }
+
+    .footer-link {
+        /* margin-left: 152px; */
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-text {
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+    }
+
+    .footer-address {
+        margin-bottom: 152px;
+        display: block;
+        width: 181px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .footer-tel {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-social-media-item {
+
+        width: 44px;
+        height: 44px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        opacity: 0.9;
+    }
+
+    .footer-end-text {
+        display: flex;
+        justify-content: space-between;
+    }
 }
