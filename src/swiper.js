@@ -2,7 +2,7 @@
 
  const swiper = new Swiper(".mySwiper2", {
     direction: "vertical",
-  
+    autoplay:true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,

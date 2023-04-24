@@ -1,4 +1,6 @@
-
+.section-sale {
+    padding-bottom: 80px;
+}
   .sale-title {
     text-align: start;
     margin-bottom: 40px;
@@ -30,9 +32,9 @@
   }
  
   
-  .swiper-card {
-    width: 100%;
-    height: 100%;
+  .mySwiper2 .swiper-card {
+    width: 80px;
+    height: 80px;
   }
   
   .swiper-card img {
@@ -45,6 +47,15 @@
   .sale-list {
     margin-top: 40px;
   }
+  .sale-list-item{
+    margin-top: 48px;
+    border-top: 1px solid black;
+  }
+  .sale-list-item:first-child {
+    border-top: none;
+  }
+  
+ 
   .sale-list-head {
     font-family: 'Epilogue';
     font-weight: 400;
@@ -53,5 +64,144 @@
     letter-spacing: -0.02em;
     color: #141414;
   }
+  .sale-list-product {
+    margin-top: 8px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+
+  }
+  .sale-price{
+    margin-top: 16px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24/18);
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+  .old-price{
+    margin-left: 8px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-decoration-line: line-through;
+    color: rgba(20, 20, 20, 0.5);
+  }
+
+  .sale-list-item h4{
+    position: relative;
+    margin-top: 8px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24/18);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+  }
+  .sale-list-text {
+    margin-top: 8px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+  }
+  .sale-text2 {
+    width: 162px;
+  }
+
+  .sale-list-item h4::after{
+    position: absolute;
+    content:'';
+    background-color:#141414;
+    width: 16px;
+    height: 1px;
+    bottom: 50%;
+    left: 95%;
+  }
+
+  @media screen and (min-width:768px) {
+    .sale-content-container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .sale-list {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 572px;
+    
+    }
+    .sale-list-item {
+        margin-top: 40px;
+    }
+    .mySwiper3 {
+        width: 406px;
+        height: 614px;
+      }
+      
+      .mySwiper2 {
+        height: 614px;
+      }
+    
+      .mySwiper2 .swiper-card {
+        width: 146px;
+        height: 146px;
+      }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .sale-content-container {
+        flex-direction: row;
+        align-items: start;
+        margin-left: 97px;
+    }
+    .sale-list {
+        margin-left: 40px;
+        margin-top: 0;
+        width: 369px;
+        
+    
+    
+    }
+    .sale-list-head {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .sale-list-item:first-child {
+        margin-top: 0;
+    }
+    .sale-list-item {
+        margin-top: 20px;
+    }
+    .mySwiper3 {
+        width: 406px;
+        height: 614px;
+      }
+      
+      .mySwiper2 {
+        height: 614px;
+      }
+    
+      .mySwiper2 .swiper-card {
+        width: 146px;
+        height: 146px;
+      }
+      .section-sale {
+        padding-bottom: 160px;
+    }
+  }
+
+  
 
   
