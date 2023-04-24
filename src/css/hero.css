@@ -16,7 +16,7 @@
     height: 35px;
     display: block;
 }
-.swiper {
+.mySwiper {
     width: 266px;
     display: inline-flex;
     justify-content: start;

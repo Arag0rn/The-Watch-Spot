@@ -1,4 +1,6 @@
+
 // -- slider  -- //
+
 
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
@@ -22,3 +24,5 @@ const swiper = new Swiper(".mySwiper", {
         },
     },
   });
+
+

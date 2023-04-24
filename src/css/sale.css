@@ -1,0 +1,57 @@
+
+  .sale-title {
+    text-align: start;
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: calc(40/32);
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+  
+  .thumb-sliders {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .swiper {
+    margin: 0;
+  }
+  
+  .mySwiper3 {
+    width: 235px;
+    height: 350px;
+  }
+  
+  .mySwiper2 {
+    height: 350px;
+  }
+ 
+  
+  .swiper-card {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  
+  .sale-list {
+    margin-top: 40px;
+  }
+  .sale-list-head {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+
+  
