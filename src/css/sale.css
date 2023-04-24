@@ -35,6 +35,7 @@
   .mySwiper2 .swiper-card {
     width: 80px;
     height: 80px;
+    cursor: pointer;
   }
   
   .swiper-card img {
@@ -42,6 +43,7 @@
     width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
+    
   }
   
   .sale-list {
