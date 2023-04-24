@@ -1,5 +1,6 @@
 .footer {
     background-color: #1E2827;
+    transition: background-color 0.5s ease;
 }
 
 .footer-tel {
@@ -254,7 +255,7 @@ justify-content: space-between;
              justify-content: space-between;
          }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .footer {
         margin: 0 auto;
         /* height: 534px; */
