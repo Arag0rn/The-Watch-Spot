@@ -26,19 +26,19 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-between;
 }
 .mobile-menu .is-hidden {
   left: -1000px;
   right: auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
   }
 }
 .mob-menu-header {
   display: flex;
+  margin-bottom: 30vh;
 }
 .header-logo {
   display: flex;
