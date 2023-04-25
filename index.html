@@ -18,7 +18,7 @@
     />
     
     <script type="module" crossorigin src="/The-Watch-Spot/assets/index-eb203be1.js"></script>
-    <link rel="stylesheet" href="/The-Watch-Spot/assets/index-02dd1a21.css">
+    <link rel="stylesheet" href="/The-Watch-Spot/assets/index-4f83655a.css">
   </head>
   <body>
     <!-- Loads header.html file -->
@@ -43,7 +43,7 @@
         </nav>
         <button class="menu-button" type="button" data-menu-open>
           <svg class="burger-open">
-            <use href="/The-Watch-Spot/assets/icons-ac335682.svg#icon-burger-menu"></use>
+            <use href="/The-Watch-Spot/assets/icons-46e58df5.svg#icon-burger-menu"></use>
           </svg>
         </button>
         <div class="contact">
@@ -107,12 +107,12 @@
     <div class="swiper-buttons">
       <div class="button-prev">
         <svg class="button-icon">
-          <use href="/The-Watch-Spot/assets/icons-ac335682.svg#icon-prev"></use>
+          <use href="/The-Watch-Spot/assets/icons-46e58df5.svg#icon-prev"></use>
         </svg>
       </div>
       <div class="button-next">
         <svg class="button-icon">
-          <use href="/The-Watch-Spot/assets/icons-ac335682.svg#icon-next"></use>
+          <use href="/The-Watch-Spot/assets/icons-46e58df5.svg#icon-next"></use>
         </svg>
       </div>
       <div class="swiper-pagination"></div>
@@ -734,7 +734,72 @@
       
 
       <!-- Loads buynow.html file -->
-      
+      <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="10" height="10">
+        <use href="/The-Watch-Spot/assets/icons-46e58df5.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="modal-purchase">
+      <img
+        srcset="/The-Watch-Spot/assets/watch-1-989a6040.jpg 1x, /The-Watch-Spot/assets/watch-1@2x-ed8b4153.jpg 2x"
+        src="../img/modal-watch.jpg"
+        alt="watch you chosed"
+        width="276"
+        height="325"
+      />
+      <h3 class="watch-name">Tube Watch S42 Date Steel With Black Case</h3>
+      <p class="watch-price">€395</p>
+    </div>
+
+    <form class="modal-form">
+      <label class="modal-form-field"
+        ><span class="modal-form-input-desc">Full name</span>
+        <input
+          type="text"
+          name="user_name"
+          class="modal-form-input"
+          pattern="^[a-zA-Z]+$"
+          minlength="2"
+          placeholder="Enter your full name" /></label
+      ><label class="modal-form-field"
+        ><span class="modal-form-input-desc">Email</span>
+        <input
+          type="email"
+          name="user_mail"
+          class="modal-form-input"
+          placeholder="Enter your email" /></label
+      ><label class="modal-form-field"
+        ><span class="modal-form-input-desc">Card number</span>
+        <input
+          type="text"
+          name="user_card"
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          minlength="19"
+          maxlength="19"
+          title="xxxx-xxxx-xxxx-xxxx"
+          class="modal-form-input"
+          placeholder="Enter card"
+      /></label>
+      <label class="modal-form-field"
+        ><span class="modal-form-input-desc">Comments</span>
+        <textarea
+          name="user_message"
+          class="modal-form-message"
+          placeholder="Enter your text"
+        ></textarea>
+      </label>
+      <button type="submit" class="modal-form-submit">submit</button>
+      <p class="modal-form-info">
+        By clicking on “Send message” button, you agree to our
+        <a class="modal-policy-link" href="">Privacy Policy</a>, and allow
+        Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+  </div>
+</div>
+
     </main>
 
     <!-- Loads footer.html file -->
