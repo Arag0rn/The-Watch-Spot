@@ -1,0 +1,158 @@
+.page-header {
+  background-color: black;
+}
+
+.header {
+  background-color: #000000;
+  padding-top: 29px;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 14px;
+  height: 14px;
+}
+.text-logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+
+  margin-left: 4px;
+}
+
+.header-nav,
+.contact {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .contact {
+    width: 375px;
+  }
+}
+
+/* ==== mobile ==== */
+
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-button {
+    border: none;
+    background-color: #000000;
+  }
+  .burger-open {
+    fill: white;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .header-logo {
+    margin-right: 80px;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .header-list-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .nav-list .item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .contact {
+    display: flex;
+    background: #1e2827;
+    border-radius: 8px;
+    width: 159px;
+    height: 48px;
+    margin-left: auto;
+  }
+
+  .call-number {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .page-header {
+    background-color: black;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+
+  .logo-icon {
+    width: 19px;
+    height: 19px;
+  }
+  .text-logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.03em;
+
+    color: #ffffff;
+  }
+}

@@ -26,6 +26,7 @@ const swiper = new Swiper('.mySwiper', {
         '"></span>'
       );
     },
+
   },
 });
 
@@ -43,3 +44,26 @@ const swiper = new Swiper('.mySwiper', {
     refs.menu.classList.toggle('is-hidden');
   }
 })();
+
+});
+  
+
+// ? Modal
+
+"use strict";
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+  };
+
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
+
