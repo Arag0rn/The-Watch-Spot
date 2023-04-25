@@ -73,9 +73,7 @@ background: url(/img/about-gif.jpg);
 /* =================TABLET================== */
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 704px;
-    }
+   
 
     .about {
         padding-top: 64px;
@@ -131,9 +129,7 @@ background: url(/img/about-tab-gif.jpg);
 /* ===================DESKTOP=========================== */
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1176px;
-    }
+ 
 
     .about {
         padding-top: 80px;
@@ -173,7 +169,7 @@ background: url(/img/about-tab-gif.jpg);
     
     background-image: url(/img/about-desktop-gif.jpg);
     width: 892px;
-    height: 599px;
+    height: 500px;
   }
   
   .gif-button:hover {

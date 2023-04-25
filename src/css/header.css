@@ -1,15 +1,8 @@
 .page-header {
   margin-bottom: -1px;
   background-color:  #141414;
-}
-
-.header {
-  padding-top: 29px;
-  padding-bottom: 29px;
-}
-
-.list {
-  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-logo {
@@ -17,11 +10,12 @@
   align-items: center;
 }
 
-.logo-icon {
+.header-logo-icon {
   width: 14px;
   height: 14px;
 }
-.text-logo {
+.header-text-logo {
+  margin-left: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -33,6 +27,9 @@
 
 .header-nav,
 .contact {
+  display: none;
+}
+.call-number {
   display: none;
 }
 
@@ -52,6 +49,7 @@
   }
 
   .menu-button {
+    padding: 0;
     background-color:#141414;
     border: none;
    
@@ -64,9 +62,7 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
+  
 
   .header {
     display: flex;
@@ -87,9 +83,11 @@
 
   .header-list-link {
     font-style: normal;
+    display: block;
     font-weight: 400;
     font-size: 9px;
     line-height: 12px;
+    padding: 15px 0;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -99,27 +97,21 @@
     margin-right: 40px;
   }
 
-  .contact {
-    display: flex;
+  .call-number {
+    display: block;
+    padding: 18px 35px;
     background: #1e2827;
     border-radius: 8px;
     width: 159px;
     height: 48px;
     margin-left: auto;
-  }
-
-  .call-number {
-    display: flex;
-    align-items: center;
-    margin-left: 35px;
-    font-style: normal;
+    color: #ffffff;
     font-weight: 400;
     font-size: 9px;
     line-height: 12px;
-    text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
   }
+
 
   .menu-button {
     display: none;
@@ -135,16 +127,16 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
   }
 
-  .logo-icon {
+  .header-logo-icon {
     width: 19px;
     height: 19px;
   }
-  .text-logo {
+  .header-text-logo {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
