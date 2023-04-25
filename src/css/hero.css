@@ -1,4 +1,20 @@
 .hero {
+
+    padding-top: 69px;
+    padding-bottom: 40px;
+    background-color: #141414;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.hero-head {
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: calc(40/38);
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
   padding-top: 69px;
   padding-bottom: 40px;
   background-color: black;
@@ -9,13 +25,43 @@
   line-height: calc(40 / 38);
   letter-spacing: -0.04em;
   color: #ffffff;
+
 }
 .button-icon {
   width: 35px;
   height: 35px;
   display: block;
 }
+.swiper-and-btn {
+    margin-top: 60px;
+}
 .swiper {
+
+    width: 266px;
+    display: inline-flex;
+    justify-content: start;
+    margin-left: 0;
+    margin-right: 0;
+}
+.swiper-buttons {
+    display: flex;
+    gap: 12px;  
+}
+.button-next, .button-prev{
+    opacity: 50%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+.button-next:hover, .button-prev:hover, 
+.button-next:focus, .button-prev:focus {
+    opacity: 100%;
+}
+.swiper-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: end;
+    width: 266px;
+
   width: 266px;
   display: inline-flex;
   justify-content: start;
@@ -31,6 +77,7 @@
   gap: 12px;
 }
 .swiper-wrapper {
+
 }
 .swiper-slide {
   display: flex;
@@ -41,6 +88,19 @@
 .hero-img {
   display: none;
 }
+
+
+
+.hero-txt {
+    font-family: 'Epilogue';
+    margin-top: 40px;
+    margin-left: 92px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
 .swiper-pagination {
   position: static;
   text-align: end;
@@ -57,16 +117,129 @@
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   color: #ffffff;
+
 }
+.swiper-pagination {
+    margin-left: 74px;
+}
+.swiper-pagination-custom {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  .swiper-pagination-custom:after {
+    /*   Стилі для псевдоелемента пагінації - рисочка між лічильниками */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+    width: 40px;
+    background-color: #FFFFFF;
+  }
+  
+
+
+@media screen and (max-width:767px){
+.section-img-block {
 
 @media screen and (max-width: 768px) {
   .section-img-block {
+
     margin-top: 40px;
     height: 410px;
     background-image: url(/img/hero-mob.jpg);
     object-fit: cover;
   }
 }
+
+
+@media screen and (min-width:768px) {
+    .hero-img {
+        display: block;
+    }
+    .hero-head {
+        width: 653px;
+        font-size: 60px;
+        line-height: calc(62/60);
+    }
+    .swiper {
+        width: 436px;
+    }
+    .swiper-action {
+        display: flex;
+        width: 436px;
+    }
+    .swiper-and-btn {
+        margin-top: 60px;
+       display: inline-block;
+       align-self: end;
+    }
+    .hero-txt {
+        position: absolute;
+        top: 40%;
+        display: inline-block;
+        width: 248px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 20px;
+        
+    }
+
+    .section-img-block{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+        display: grid;
+        grid-template-columns: 436px 676px;
+        grid-template-rows: 124px 394px;
+        row-gap: 43px;
+        column-gap: 64px;
+    
+    }
+    .hero-txt {
+        margin-top: 0;
+        position: static;
+        grid-column-start: 2;
+        justify-self: flex-end;
+        align-self: center;
+    }
+    .section-img-block {
+        margin-top: 0;
+       align-self: center;
+        grid-column-start: 2;
+        
+    }
+    .swiper-and-btn {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .hero-head {
+        width: 750px;
+        grid-row-start: 1;
+        
+    }
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 80x;
+        
+        
+    }
 
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -77,4 +250,6 @@
     font-size: 60px;
     line-height: calc(62 / 60);
   }
+
 }
+
