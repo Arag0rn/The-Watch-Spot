@@ -171,6 +171,7 @@
     
     }
     .hero-txt {
+        width: 282px;
         margin-top: 0;
         grid-column-start: 2;
         justify-self: flex-end;
