@@ -1,4 +1,6 @@
 
+
+
 <svg width="78" height="88" viewBox="0 0 78 88" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_74_654)">
 <path d="M57.9513 44.0059L47.4077 19.8545L45.1088 18.2608L42.4134 17.4026L38.7668 16.4219L34.486 18.2608L31.6321 19.8545L42.4134 44.0059H57.9513Z" fill="url(#paint0_linear_74_654)"/>
@@ -41,6 +43,7 @@
 </linearGradient>
 </defs>
 
+
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="14.7 15 48.6 50">
   <g filter="url(#a)">
     <path fill="url(#b)" d="M57.951 44.006 47.408 19.854l-2.3-1.593-2.695-.858-3.646-.981-4.281 1.839-2.854 1.593 10.781 24.152h15.538Z"/>
@@ -81,5 +84,9 @@
       <feBlend in="SourceGraphic" in2="effect1_dropShadow_74_1181" result="shape"/>
     </filter>
   </defs>
+
 </svg>
+
+</svg>
+
 
