@@ -1,6 +1,12 @@
+
 // -- slider  -- //
 
+
+
+const swiper = new Swiper(".mySwiper", {
+
 const swiper = new Swiper('.mySwiper', {
+
   slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
@@ -46,6 +52,9 @@ pagination: {
       );
     },
 
+  });
+=======
+
   },
 });
 
@@ -85,5 +94,6 @@ pagination: {
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
 
 
