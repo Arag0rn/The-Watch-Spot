@@ -5,13 +5,13 @@
     }
 
     .about-head {
-        font-family: 'epiloguesemibold';
-font-weight: 600;
-font-size: 32px;
-line-height: 1.25;
-letter-spacing: -0.02em;
-margin-bottom: 40px;
-color: #1E2827;
+        font-family: 'Epilogue';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        margin-bottom: 40px;
+        color: #1E2827;
     }
 
     .about-discription {
@@ -22,13 +22,13 @@ color: #1E2827;
 
 
     .about-text {
-        font-family:'epiloguelight';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.02em;
-color: #141414;
+        font-family:'Epilogue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #141414;
     }
 
     .about-txt {
@@ -137,6 +137,7 @@ background: url(/img/about-tab-gif.jpg);
 
     .about {
         padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .about-head:not(:last-child) {
@@ -154,10 +155,10 @@ background: url(/img/about-tab-gif.jpg);
 }
 
 .animated-gif {
-    float: right;
+    
     width: 892px;
-height: 500px;
-background: url(/img/about-desktop-gif.jpg);
+    height: 500px;
+    background: url(/img/about-desktop-gif.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -169,6 +170,7 @@ background: url(/img/about-desktop-gif.jpg);
     }
 
 .gif-button {
+    
     background-image: url(/img/about-desktop-gif.jpg);
     width: 892px;
     height: 599px;
@@ -176,6 +178,10 @@ background: url(/img/about-desktop-gif.jpg);
   
   .gif-button:hover {
     background-image: url(/img/watchspot.gif);
+  }
+  .gif-container {
+    display: flex;
+    justify-content: end;
   }
 }
   /* =====================/DESKTOP================== */

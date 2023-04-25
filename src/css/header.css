@@ -1,10 +1,11 @@
 .page-header {
-  background-color: black;
+  margin-bottom: -1px;
+  background-color:  #141414;
 }
 
 .header {
-  background-color: #000000;
   padding-top: 29px;
+  padding-bottom: 29px;
 }
 
 .list {
@@ -26,9 +27,7 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: -0.03em;
-
   color: #ffffff;
-
   margin-left: 4px;
 }
 
@@ -53,8 +52,9 @@
   }
 
   .menu-button {
+    background-color:#141414;
     border: none;
-    background-color: #000000;
+   
   }
   .burger-open {
     fill: white;
@@ -90,11 +90,8 @@
     font-weight: 400;
     font-size: 9px;
     line-height: 12px;
-    /* identical to box height, or 133% */
-
     text-align: center;
     text-transform: uppercase;
-
     color: #ffffff;
   }
 
@@ -119,10 +116,8 @@
     font-weight: 400;
     font-size: 9px;
     line-height: 12px;
-
     text-align: center;
     text-transform: uppercase;
-
     color: #ffffff;
   }
 
@@ -131,9 +126,12 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1280px) {
+@media (min-width: 767px) {
   .page-header {
-    background-color: black;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color:  #141414;
+    margin-bottom: -1px;
   }
 }
 
@@ -152,7 +150,6 @@
     font-size: 15px;
     line-height: 15px;
     letter-spacing: -0.03em;
-
     color: #ffffff;
   }
 }
