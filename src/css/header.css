@@ -121,7 +121,6 @@
 @media (min-width: 767px) {
   .page-header {
     margin: 0 auto;
-    max-width: 1440px;
     background-color:  #141414;
     margin-bottom: -1px;
   }
