@@ -2,9 +2,11 @@
     background-color: #1E2827;
 
 }
-
-.footer-tel {
+.footer-tel-li {
     margin-top: 40px;
+}
+.footer-tel {
+
     font-family: 'Epilogue';
     font-weight: 400;
     font-size: 14px;
@@ -39,7 +41,7 @@
     display: flex;
     gap: 14px;
     margin-top: 40px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .footer-text {
@@ -49,16 +51,17 @@
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #C6CDD1;
-    margin-bottom: 14px;
 }
 
 .footer-text-block {
     display: flex;
     gap: 14px;
 }
-
+.footer-address-li{
+margin-top: 20px;
+}
 .footer-address {
-    margin-top: 20px;
+    
     font-family: 'Epilogue';
     font-weight: 400;
     font-size: 14px;
@@ -86,11 +89,8 @@
 
  
     .footer {
-        margin: 0 auto;
-        max-width: 375px;
         padding-top: 40px;
         padding-bottom: 20px;
-        background-size: cover;
     }
 
     .footer-link-about-us {
@@ -103,6 +103,7 @@
         margin-bottom: 14px;
     }
     .footer-logo-links-socmed {
+        margin-bottom: 80px;
         display: flex;
         justify-content: space-between;
         align-items: start;
@@ -113,13 +114,11 @@
 @media screen and (min-width: 768px) {
 
     .footer {
-        margin: 0 auto;
-        max-width: 768px;
         padding-top: 80px;
         padding-bottom: 20px;
-        background-size: cover;
     }
     .footer-logo-links-socmed {
+        margin-bottom: 152px;
         display: flex;
         justify-content: space-between;
         align-items: start;
@@ -180,19 +179,15 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .footer {
-        margin: 0 auto;
-        max-width: 1440px;
-        background-size: cover;
-    }
          .footer-logo-links-socmed {
+            margin-bottom: 174px;
              display: flex;
              justify-content: space-between;
              align-items: start;
          }
     
          .footer-social-media {
-             margin: 0;
+            margin: 0;
          }
     
          .footer-link {
@@ -213,7 +208,7 @@
          }
     
          .footer-address {
-             margin-bottom: 152px;
+            
              display: block;
              width: 181px;
              font-weight: 400;
