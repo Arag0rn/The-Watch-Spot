@@ -2,7 +2,6 @@
     padding-top: 69px;
     padding-bottom: 40px;
     background-color: #141414;
-    max-width: 1440px;
     margin: 0 auto;
     
 }
@@ -20,7 +19,7 @@
     display: block;
 }
 .swiper-and-btn {
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .mySwiper {
     width: 266px;
@@ -52,10 +51,6 @@
     display: flex;
     justify-content: center;
     background-color: #1E2827;
-}
-
-.hero-img {
-    display: none;
 }
 
 
@@ -104,8 +99,7 @@
 .section-img-block {
     margin-top: 40px;
     height: 410px;
-    background-image: url(/img/hero-mob.jpg);
-    object-fit: cover;
+
 }
 }
 
@@ -117,6 +111,12 @@
         row-gap: 60px;
         column-gap: 20px;
     
+    }
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 64px;
+        
+        
     }
    
    
@@ -136,7 +136,6 @@
         width: 436px;
     }
     .swiper-and-btn {
-        margin-top: 60px;
        display: inline-block;
        grid-column-start: 1;
     }
@@ -165,7 +164,6 @@
     .hero-container {
         display: grid;
         grid-template-columns: 436px 676px;
-        grid-template-rows: 124px 394px;
         row-gap: 43px;
         column-gap: 64px;
     
@@ -179,7 +177,7 @@
     }
     .section-img-block {
         margin-top: 0;
-       align-self: center;
+        align-self: center;
         grid-column-start: 2;
         
     }
@@ -194,7 +192,7 @@
     }
     .hero {
         padding-top: 80px;
-        padding-bottom: 80x;
+        padding-bottom: 80px;
         
         
     }
