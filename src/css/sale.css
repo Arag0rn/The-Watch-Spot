@@ -46,17 +46,15 @@
     
   }
   
-  .sale-list {
-    margin-top: 40px;
-  }
+  
   .sale-list-item{
-    margin-top: 48px;
+    margin-top: 40px;
     border-top: 1px solid black;
   }
-  .sale-list-item:first-child {
-    border-top: none;
-  }
   
+ .sale-head-item {
+    margin-top: 40px;
+ }
  
   .sale-list-head {
     font-family: 'Epilogue';
@@ -136,8 +134,16 @@
        flex-direction: column;
        align-items: center;
     }
+    .sale-head-item {
+      margin-top: 40px;
+    }
+
+    .sale-list-head {
+      font-size: 38px;
+      width: 572px;
+      line-height: 40px;
+    }
     .sale-list {
-        margin-top: 40px;
         display: flex;
         flex-direction: column;
         width: 572px;
@@ -163,19 +169,24 @@
 
   @media screen and (min-width: 1280px) {
     .sale-content-container {
+        margin: 0 auto;
         flex-direction: row;
         align-items: start;
-        margin-left: 97px;
+        max-width: 981px;
     }
     .sale-list {
-        margin-left: 40px;
+        
         margin-top: 0;
         width: 369px;
         
+  
     
-    
+    }  
+    .section-sale{
+      padding-top: 160px;
     }
     .sale-list-head {
+     
         font-size: 38px;
         line-height: 40px;
     }
@@ -183,7 +194,14 @@
     .sale-list-item:first-child {
         margin-top: 0;
     }
+    .sale-head-item{
+      margin-left: 40px;
+       display: flex;
+      flex-direction: column;
+     
+    }
     .sale-list-item {
+     
         margin-top: 20px;
     }
     .mySwiper3 {

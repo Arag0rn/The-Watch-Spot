@@ -1,5 +1,5 @@
 .new-watches {
-    padding: 80px 0;
+    padding: 0 0 80px 0;
   }
   
   .new-watches-title {
@@ -35,7 +35,7 @@
       color: #1e2827;
     }
     .new-watches {
-      padding: 128px 0;
+      padding: 0 0 128px 0;
     }
   
     .new-watches-list {
