@@ -57,9 +57,10 @@
   
               
       <div class="section-img-block">
-         <img 
-         srcset="./img/hero-desk.jpg 1x, ./img/hero-desk-@2x.jpg 2x"
-         class="hero-img" src="./img/hero-desk.jpg" alt="hero" width="676">
+        <picture>
+        <source media="(max-width: 767px)" srcset="./img/hero-mob.jpg">
+        <source media="(max-width: 1279px)" srcset="./img/hero-tab.jpg">
+         <img class="hero-img" src="./img/hero-desk.jpg" alt="hero">
       </div>  
 
   </div>

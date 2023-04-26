@@ -1,14 +1,14 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="modal-close-btn" data-modal-close>
-      <svg class="modal-close-icon" width="10" height="10">
+      <svg class="modal-close-icon" width="24" height="24">
         <use href="/img/icons.svg#icon-close"></use>
       </svg>
     </button>
     <div class="modal-purchase">
       <img
         srcset="/img/modal-watch.jpg 1x, /img/modal-watch-@2x.jpg 2x"
-        src="../img/modal-watch.jpg"
+        src="/img/modal-watch.jpg"
         alt="watch you chosed"
         width="276"
         height="325"
@@ -21,6 +21,7 @@
       <label class="modal-form-field"
         ><span class="modal-form-input-desc">Full name</span>
         <input
+          required
           type="text"
           name="user_name"
           class="modal-form-input"
@@ -30,6 +31,7 @@
       ><label class="modal-form-field"
         ><span class="modal-form-input-desc">Email</span>
         <input
+          required
           type="email"
           name="user_mail"
           class="modal-form-input"
@@ -37,6 +39,7 @@
       ><label class="modal-form-field"
         ><span class="modal-form-input-desc">Card number</span>
         <input
+          required
           type="text"
           name="user_card"
           pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
