@@ -5,7 +5,7 @@ img {
 .catalog {
   background-color: #ffffff;
   font-family: 'Epilogue', sans-serif;
-   padding-top: 80px; 
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -127,7 +127,6 @@ img {
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 20px;
 }
 
 .gallery .item.item-card {
@@ -166,8 +165,12 @@ img {
 
   .overlay {
     max-width: 335px;
-    /* height: 360px; */
+
     padding: 46px 59px 41px 40px;
+  }
+
+  .item-overlay:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
@@ -179,13 +182,12 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .catalog {
-    /* padding-top: 128px; */
     padding-bottom: 128px;
   }
 
   .gallery {
     display: flex;
-    justify-content: space-around;
+
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 40px;
@@ -198,12 +200,16 @@ img {
     letter-spacing: -0.02em;
   }
 
+  .item-overlay:not(:last-child) {
+    margin-bottom: 22px;
+  }
+
   .overlay {
     padding: 46px 60px 40px 40px;
   }
 
-  .text-overlay {
-    margin-bottom: 22px;
+  .item {
+    width: calc((100% - 32px) / 2);
   }
 }
 
@@ -235,15 +241,15 @@ img {
     margin-bottom: 80px;
   }
 
-  .card-title {
-    margin-top: 39px;
-  }
-
   .overlay {
     padding: 26px 20px 20px 20px;
   }
 
-  .text-overlay {
+  .item-overlay:not(:last-child) {
     margin-bottom: 26px;
+  }
+
+  .overlay-thumb {
+    height: 325px;
   }
 }
